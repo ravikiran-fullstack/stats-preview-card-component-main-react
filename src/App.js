@@ -1,10 +1,9 @@
-
-import StatsPreviewCard from './components/statsPreviewCard/StatsPreviewCard';
+import StatsPreviewCard from "./components/statsPreviewCard/StatsPreviewCard";
 
 function App() {
   return (
     <div className="app">
-      <StatsPreviewCard/>
+      <StatsPreviewCard></StatsPreviewCard>
     </div>
   );
 }

@@ -11,21 +11,55 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: auto;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .background-tint {
-  background-color: hsl(277deg 64% 61% / 50%);
+  background-color: hsl(277deg 64% 61% / 50%) !important;
   background-blend-mode: multiply;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
   .card-image {
     background: url("../../assets/image-header-mobile.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+  }
+
+  .heading {
+    padding: 0 2rem !important;
+    margin: 20px 0 !important;
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-size: 2rem !important;
+  }
+  
+  .info {
+    padding: 0 2rem !important;
+    margin: 40px 0 40px 0 !important;
+    text-align: center;
+  }
+  
+  .company-stats {
+    margin-top: 0px !important;
+    padding: 0 35% !important;
+  }
+
+  .company-stats div{
+    margin-bottom: 20px;
+  }
+
+  .company-stats div p {
+    text-transform: uppercase;
   }
 }
 
@@ -65,4 +99,8 @@
 .company-stats p{
     text-transform: capitalize;
     color: hsla(0, 0%, 100%, 0.75);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
 }
