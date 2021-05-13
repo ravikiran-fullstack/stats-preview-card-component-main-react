@@ -50,7 +50,7 @@
   }
   
   .company-stats {
-    margin-top: 0px !important;
+    margin: 100px 0 25px 0 !important;
     padding: 0 35% !important;
   }
 
@@ -73,8 +73,12 @@
 .heading {
   padding: 0 6.25rem;
   margin: 50px 0;
-  font-size: 1.35rem;
+  
   color: hsl(0, 0%, 100%);
+}
+
+.heading h1 {
+  font-size: 2.15rem;
 }
 
 .heading-insight {
@@ -88,7 +92,7 @@
 }
 
 .company-stats {
-  margin-top: 100px;
+  margin: 100px 0 25px 0 !important;
   padding: 0 6.25rem;
 }
 
