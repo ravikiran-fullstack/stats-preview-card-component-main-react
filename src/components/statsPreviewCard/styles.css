@@ -19,7 +19,7 @@
   }
   
   .company-stats {
-    margin: 100px 0 25px 0 !important;
+    margin: 40px 0 25px 0 !important;
   }
 
   .company-stats div{
@@ -56,7 +56,7 @@
 }
 
 .company-stats {
-  margin: 100px 0 25px 0 !important;
+  margin: 100px 0 25px 0;
 }
 
 .company-stats h1{
