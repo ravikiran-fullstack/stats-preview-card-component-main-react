@@ -1,57 +1,25 @@
-.card-container {
-  height: 65vh;
-  width: 80vw;
-  border-radius: 10px;
-  border: 1px solid hsl(233, 47%, 7%);
-
-}
-
-.card-image {
-  background: url("../../assets/image-header-desktop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
 .background-tint {
   background-color: hsl(277deg 64% 61% / 50%) !important;
   background-blend-mode: multiply;
 }
 
 @media only screen and (max-width: 600px) {
-  .card-image {
-    background: url("../../assets/image-header-mobile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    width: 100%;
-    border-top-right-radius: 5px !important;
-    border-top-left-radius: 5px !important;
-  }
-
   .heading {
-    padding: 0 2rem !important;
     margin: 20px 0 !important;
     text-align: center;
   }
 
   .heading h1 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
   
   .info {
-    padding: 0 2rem !important;
     margin: 40px 0 40px 0 !important;
     text-align: center;
   }
   
   .company-stats {
     margin: 100px 0 25px 0 !important;
-    padding: 0 35% !important;
   }
 
   .company-stats div{
@@ -67,13 +35,10 @@
   height: 100%;
   flex: 1 1 auto;
   background: hsl(244, 38%, 16%);
-  
 }
 
 .heading {
-  padding: 0 6.25rem;
   margin: 50px 0;
-  
   color: hsl(0, 0%, 100%);
 }
 
@@ -86,14 +51,12 @@
 }
 
 .info {
-  padding: 0 6.25rem;
   margin: 40px 0 80px 0;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
 .company-stats {
   margin: 100px 0 25px 0 !important;
-  padding: 0 6.25rem;
 }
 
 .company-stats h1{
@@ -103,8 +66,4 @@
 .company-stats p{
     text-transform: capitalize;
     color: hsla(0, 0%, 100%, 0.75);
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.5);
 }
